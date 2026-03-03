@@ -5,6 +5,9 @@ export type StoryNode = {
   title: string;
   text: string;
   choices: Choice[];
+  background?: string;
+  sprite?: string;
+  spritePosition?: "left" | "center" | "right";
 };
 
 export type Story = {
