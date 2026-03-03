@@ -4,11 +4,14 @@
     "intro": {
       "id": "intro",
       "title": "Cold Open",
-      "text": "Your phone buzzes. Unknown number. A video attachment labeled: PLAY ME.",
+      "text": "It is midnight and your phone starts ringing. What do you do?",
       "choices": [
-        { "text": "Play the video", "to": "video" },
-        { "text": "Delete it and go to bed", "to": "bed" }
-      ]
+        { "text": "Pick up the phone", "to": "video" },
+        { "text": "Ignore", "to": "bed" }
+      ],
+      "background": "scene1.png",
+      "sprite": "sprite1.png",
+      "spritePosition": "left"
     },
     "video": {
       "id": "video",
