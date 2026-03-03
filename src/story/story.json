@@ -1,0 +1,32 @@
+{
+  "startId": "intro",
+  "nodes": {
+    "intro": {
+      "id": "intro",
+      "title": "Cold Open",
+      "text": "Your phone buzzes. Unknown number. A video attachment labeled: PLAY ME.",
+      "choices": [
+        { "text": "Play the video", "to": "video" },
+        { "text": "Delete it and go to bed", "to": "bed" }
+      ]
+    },
+    "video": {
+      "id": "video",
+      "title": "The Tape",
+      "text": "Static. A hallway. Your hallway. Someone whispers your name from behind the camera.",
+      "choices": [
+        { "text": "Lock the doors", "to": "locks" },
+        { "text": "Grab a knife (bad idea, but vibes)", "to": "knife" }
+      ]
+    },
+    "bed": {
+      "id": "bed",
+      "title": "Denial",
+      "text": "You wake at 3:33 AM. Something is breathing in the corner.",
+      "choices": [
+        { "text": "Turn on the light", "to": "light" },
+        { "text": "Pretend you're asleep", "to": "pretend" }
+      ]
+    }
+  }
+}
